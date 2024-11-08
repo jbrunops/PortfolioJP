@@ -52,3 +52,30 @@ p {
   color: black;
   text-transform: uppercase;
 }
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao {
+  background: #ffffff;
+  padding: 40px;
+  text-align: right;
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background: #4caf50;
+  display: inline-block;
+}
+
+.botao {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 15px 15px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
