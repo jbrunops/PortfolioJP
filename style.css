@@ -63,6 +63,11 @@ p {
   background: #ffffff;
   padding: 40px;
   text-align: right;
+  position: relative;
+  display: grid;
+  align-content: center;
+  gap: 20px;
+  justify-items: end; /*alinhar ao final da grid*/
 }
 
 .detalhe {
@@ -70,6 +75,9 @@ p {
   height: 4px;
   background: #4caf50;
   display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: -30px;
 }
 
 .botao {
