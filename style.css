@@ -97,3 +97,19 @@ p {
   padding: 40px;
   align-self: center;
 }
+
+.vantagens {
+  background: #ffffff;
+  padding: 40px;
+}
+
+.vantagens-itens {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.vantagens-itens p {
+  grid-column: 2;
+}
